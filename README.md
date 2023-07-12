@@ -1,2 +1,3 @@
 # FirefoxUserChrome
-My personal firefox userChrome
+
+this repo contains my personal firefox userChrome.css
