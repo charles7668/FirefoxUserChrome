@@ -1,0 +1,14 @@
+#sidebar-box:not(:hover) {
+    width: 30px !important;
+    transition: width 0.3s;
+  }
+  
+  #sidebar-box {
+    transition: width 0.3s;
+    transition-delay: 0.5s;
+  }
+  
+  #sidebar-splitter {
+    width: 8px;
+  }
+  
