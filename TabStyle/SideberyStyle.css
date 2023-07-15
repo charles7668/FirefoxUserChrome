@@ -4,17 +4,14 @@
     width: 100% !important;
     justify-content: start !important;
   }
-  @media (max-width: 50px) {
-    .lvl-wrapper .close {
-      visibility: hidden;
-    }
+  @media (max-width: 30px) {
     .Tab[data-lvl] {
       padding-left: 0px !important;
     }
   }
-  @media (min-width: 51px) {
+  @media (max-width: 70px) {
     .lvl-wrapper .close {
-      visibility: visible;
+      visibility: hidden;
     }
   }
 }
