@@ -8,6 +8,9 @@
     .lvl-wrapper .close {
       visibility: hidden;
     }
+    .Tab[data-lvl] {
+      padding-left: 0px !important;
+    }
   }
   @media (min-width: 51px) {
     .lvl-wrapper .close {
