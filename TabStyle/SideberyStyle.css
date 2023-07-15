@@ -1,0 +1,17 @@
+@-moz-document url(moz-extension://0b992e5b-9f3a-41b8-ad25-3778f25fef27/sidebar/index.html)
+{
+  .PinnedDock .PinnedTab {
+    width: 100% !important;
+    justify-content: start !important;
+  }
+  @media (max-width: 50px) {
+    .lvl-wrapper .close {
+      visibility: hidden;
+    }
+  }
+  @media (min-width: 51px) {
+    .lvl-wrapper .close {
+      visibility: visible;
+    }
+  }
+}
