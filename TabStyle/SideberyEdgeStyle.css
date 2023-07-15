@@ -1,14 +1,23 @@
 #sidebar-box:not(:hover) {
-    width: 30px !important;
-    transition: width 0.3s;
-  }
-  
-  #sidebar-box {
-    transition: width 0.3s;
-    transition-delay: 0.5s;
-  }
-  
-  #sidebar-splitter {
-    width: 8px;
-  }
-  
+  width: 30px !important;
+  transition: width 0.3s;
+}
+
+#sidebar-box:hover + #sidebar-splitter {
+  z-index: 0 !important;
+}
+
+#sidebar-box {
+  transition: width 0.3s;
+  transition-delay: 0.5s;
+  position: fixed;
+  height: calc(100% - 30px);
+  z-index: 1 !important;
+}
+
+#sidebar-splitter {
+  --spliter-width: 8px;
+  width: var(--spliter-width) !important;
+  margin-left: calc(30px - var(--spliter-width)) !important;
+  z-index: 2 !important;
+}
