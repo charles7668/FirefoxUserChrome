@@ -1,4 +1,4 @@
-@-moz-document url(moz-extension://0b992e5b-9f3a-41b8-ad25-3778f25fef27/sidebar/index.html)
+@-moz-document regexp("^moz-extension://.*?/sidebar/index\.html")
 {
   .PinnedDock .PinnedTab {
     width: 100% !important;
