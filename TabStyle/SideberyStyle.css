@@ -1,4 +1,4 @@
-@-moz-document regexp("^moz-extension://.*?/sidebar/index\.html")
+@-moz-document regexp("^moz-extension://.*?/sidebar/sidebar\.html")
 {
   .PinnedDock .PinnedTab {
     width: 100% !important;
