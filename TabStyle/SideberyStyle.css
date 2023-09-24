@@ -10,7 +10,8 @@
     }
   }
   @media (max-width: 70px) {
-    .lvl-wrapper .close,
+    .Tab .close,
+    .Tab .exp,
     .PinnedTab .close {
       visibility: hidden;
     }
